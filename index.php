@@ -24,10 +24,15 @@
     echo '<BR>';
     $j = 2;
     $g = "2";
-    var_dump($j == $g);
+    var_dump($j === $g);
     echo '<BR>';
     $l = 2;
     $m = "2";
     var_dump($l != $m);
     echo '<BR>';
+    $o = 2;
+    $p = "2";
+    var_dump($o !== $p);
+    echo '<BR>';
+    
 ?>
