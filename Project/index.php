@@ -23,7 +23,7 @@ $cat1 = new Cat();
 $cat1->name = 'Barsik'; 
 $cat1->color = 'grey';
 $cat1->weight = 7;
-$cat1->height = setHeight('100');
+$cat1->setHeight('100');
 $cat2->height = setHeight('120');
 $cat2->name = 'Tishka';
 $cat2->color = 'red';
