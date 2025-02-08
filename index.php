@@ -34,7 +34,7 @@
     $p = "2";
     var_dump($o !== $p);
     echo '<BR>';
-    $q = '2';
+    $q = 'two';
     $w = true;
     $u = $q + $w;
     echo gettype($u).'</br>';
