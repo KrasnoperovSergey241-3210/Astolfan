@@ -28,7 +28,7 @@ $cat2->height = setHeight('120');
 $cat2->name = 'Tishka';
 $cat2->color = 'red';
 $cat2->weight = 5;
-//$cat3 = new Cat('Murka', 'black', 7, "80");
+//$cat3 = new Cat('Murka', 'black', 7, '80');
 echo $cat1->getHeight().'<BR>';
 echo $cat2->getHeight().'<BR>';
 var_dump($cat1);
