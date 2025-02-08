@@ -34,5 +34,8 @@
     $p = "2";
     var_dump($o !== $p);
     echo '<BR>';
-    
+    $q = 2;
+    $w = true;
+    $u = $q + $w;
+    echo $u;
 ?>
