@@ -18,4 +18,16 @@
     print strlen($f)."<BR>"; //14 знаков
     $f=sprintf("%.2f",$f);
     print "f=$f<BR>"; //f=0.67
+    $h = 2;
+    $k = "2";
+    var_dump($h == $k);
+    echo '<BR>';
+    $j = 2;
+    $g = "2";
+    var_dump($j == $g);
+    echo '<BR>';
+    $l = 2;
+    $m = "2";
+    var_dump($l != $m);
+    echo '<BR>';
 ?>
