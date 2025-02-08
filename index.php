@@ -37,5 +37,5 @@
     $q = '2';
     $w = true;
     $u = $q + $w;
-    echo $u;
+    echo gettype($u).'</br>';
 ?>
