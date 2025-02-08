@@ -5,5 +5,7 @@
     $a = 2;
     $b = "2";
     $c = $a + $b;
-    echo $c;
+    echo $c.'</br>';
+    $d = $b + $a;
+    echo $d.'</br>';
 ?>
