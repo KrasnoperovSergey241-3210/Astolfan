@@ -4,8 +4,10 @@
     $L = 2 * pi * $R;
     $a = 2;
     $b = "2";
-    $c = $a + $b;
+    $c = (string)$a.$b;
+    echo gettype($a).'</br>';
     echo $c.'</br>';
     $d = $b + $a;
     echo $d.'</br>';
+
 ?>
