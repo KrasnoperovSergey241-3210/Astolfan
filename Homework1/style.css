@@ -74,6 +74,7 @@ header {
     animation-timing-function: ease;
     align-items: center;
     position: relative;
+    margin: 10px 10px 10px 0px;
 }
 
 .header-text {
