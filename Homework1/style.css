@@ -68,7 +68,7 @@ p {
 
 header {
     border-radius: 25px;
-    background-image: linear-gradient(#75176a, #75188f,  #410a47);
+    background-image: linear-gradient( #75188f,  #410a47);
     border-width: 0px;
     display: flex;
     justify-content: space-between;
@@ -78,6 +78,7 @@ header {
     align-items: center;
     position: relative;
     margin: 20px 20px 0px 20px;
+    padding: 10px;
 }
 
 .header-text {
@@ -102,12 +103,12 @@ footer {
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    background-image: linear-gradient(#75176a, #75188f,  #410a47);
+    background-image: linear-gradient( #75188f,  #410a47);
 }
 
 a {
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 120%;
     text-decoration: none;
     color: var(--white);
@@ -130,7 +131,7 @@ a {
 
 .footer-ul-title {
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 120%;
     color: var(--white);
 }
