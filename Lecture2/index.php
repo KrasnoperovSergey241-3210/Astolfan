@@ -8,7 +8,7 @@
 <body>
     <h1>Hello world!</h1>
     <p>
-        <?php echo date("1"); ?>
+        <?php echo date("l"); ?>
     </p>
 </body>
 </html>
