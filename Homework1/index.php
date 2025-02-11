@@ -12,49 +12,66 @@
         <p class='header-text'>Hello world!</p>
     </header>
     <section class='fade-in'>
-    <h1>Welcome to Time & Date!</h1>
-    <ul>
-        <li class='inline-block'>
-            <p class='bold-style'>
-                Present year:
-            </p>
-            <p>
-                <?php echo date("Y"); ?>
-            </p>
-        </li>
-        <li class='inline-block'>
-            <p class='bold-style'>
-                Present month:
-            </p>
-            <p>
-                <?php echo date("F"); ?>
-            </p>
-        </li>
-        <li class='inline-block'>
-            <p class='bold-style'>
-                Present date:
-            </p>
-            <p>
-                <?php echo date("jS"); ?>
-            </p>
-        </li>
-        <li class='inline-block'>
-            <p class='bold-style'>
-                Day of the week:
-            </p>
-            <p>
-                <?php echo date("l"); ?>
-            </p>
-        </li>
-        <li class='inline-block'>
-            <p class='bold-style'>
-                Current time:
-            </p>
-            <p>
-                <?php echo date("h:i:s"); ?>
-            </p>
-        </li>
-    </ul>
-</section>
+        <h1>Welcome to Time & Date!</h1>
+        <ul>
+            <li class='inline-block'>
+                <p class='bold-style'>
+                    Present year:
+                </p>
+                <p>
+                    <?php echo date("Y"); ?>
+                </p>
+            </li>
+            <li class='inline-block'>
+                <p class='bold-style'>
+                    Present month:
+                </p>
+                <p>
+                    <?php echo date("F"); ?>
+                </p>
+            </li>
+            <li class='inline-block'>
+                <p class='bold-style'>
+                    Present date:
+                </p>
+                <p>
+                    <?php echo date("jS"); ?>
+                </p>
+            </li>
+            <li class='inline-block'>
+                <p class='bold-style'>
+                    Day of the week:
+                </p>
+                <p>
+                    <?php echo date("l"); ?>
+                </p>
+            </li>
+            <li class='inline-block'>
+                <p class='bold-style'>
+                    Current time:
+                </p>
+                <p>
+                    <?php echo date("h:i:s"); ?>
+                </p>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <img src='Homework1\index.php' alt='Логотип Мосполитеха.'>
+        <ul>
+            <li>
+                Другие продукты:
+            </li>
+            <li>
+                <a href='http:nya-kawaii-senpai.nelify.app'>Сайт на тему сёрфинга</a>
+            </li>
+            <li>
+                <a href='http:greed-kawaii-senpai.nelify.app'>Сайт с картинами</a>
+            </li>
+            <li>
+                <a href='http:nya-kawaii-senpai.nelify.app'>Сайт для избранных</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

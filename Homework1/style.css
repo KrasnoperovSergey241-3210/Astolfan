@@ -95,3 +95,17 @@ header {
         top: 0px;
     }
 }
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient( #75188f, #75176a, #410a47);
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    line-height: 120%;
+    text-decoration: none;
+}
