@@ -69,6 +69,7 @@ header {
     background-image: linear-gradient( #75188f, #75176a, #410a47);
     border-width: 0px;
     display: flex;
+    justify-content: space-between;
     animation-name: header-slide-in;
     animation-duration: 3s;
     animation-timing-function: ease;
@@ -78,7 +79,8 @@ header {
 }
 
 .header-text {
-    justify-self: center;
+    position: relative;
+    right: 50%;
 }
 
 @keyframes header-slide-in {
