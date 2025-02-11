@@ -72,13 +72,15 @@ header {
     animation-name: header-slide-in;
     animation-duration: 5s;
     animation-timing-function: ease;
+    align-items: center;
+    position: absolute;
 }
 
 @keyframes header-slide-in {
     from {
-        position: absolute;
         top: -100px;
     }
+
     50% {
         top: -50px;
     }
