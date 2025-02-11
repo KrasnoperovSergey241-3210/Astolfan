@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src='Homework1\index.php' alt='Логотип Мосполитеха.'>
+        <img src='Homework1\mospolytech_logo_white.png' alt='Логотип Мосполитеха.'>
         <p class='header-text'>Hello world!</p>
     </header>
     <section class='fade-in'>
@@ -57,7 +57,7 @@
         </ul>
     </section>
     <footer>
-        <img class='footer-img' src='Homework1\index.php' alt='Логотип Мосполитеха.'>
+        <img class='footer-img' src='Homework1\mospolytech_logo_white.png' alt='Логотип Мосполитеха.'>
         <ul class='footer-ul'>
             <li class='footer-ul-title'>
                 Другие продукты:
