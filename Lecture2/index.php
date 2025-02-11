@@ -7,7 +7,7 @@
     <link rel='stylesheet' href="style.css">
 </head>
 <body>
-    <section>
+    <section class='fade-in'>
     <h1>Welcome to Time & Date!</h1>
     <ul>
         <li class='inline-block'>
