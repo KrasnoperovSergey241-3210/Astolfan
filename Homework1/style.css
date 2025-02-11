@@ -65,15 +65,15 @@ p {
 }
 
 header {
-    border-radius: 15px;
+    border-radius: 25px;
     background-image: linear-gradient( #75188f, #75176a, #410a47);
     border-width: 0px;
     display: flex;
     animation-name: header-slide-in;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-timing-function: ease;
     align-items: center;
-    position: absolute;
+    position: relative;
 }
 
 @keyframes header-slide-in {
