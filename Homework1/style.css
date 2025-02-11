@@ -135,3 +135,7 @@ a {
     line-height: 120%;
     color: var(--white);
 }
+
+img {
+    height: 40px;
+}
