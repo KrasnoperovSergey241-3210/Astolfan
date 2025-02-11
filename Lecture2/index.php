@@ -42,6 +42,14 @@
                 <?php echo date("l"); ?>
             </p>
         </li>
+        <li class='inline-block'>
+            <p>
+                Current time:
+            </p>
+            <p>
+                <?php echo date("h:i:s"); ?>
+            </p>
+        </li>
     </ul>
 </section>
 </body>

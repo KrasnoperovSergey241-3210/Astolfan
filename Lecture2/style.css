@@ -8,6 +8,7 @@ body {
     font-size: 1.6rem;
     background-color: var(--black);
     color: var(--white);
+    margin: 0;
 }
 
 h1 {
