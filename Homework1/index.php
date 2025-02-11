@@ -13,7 +13,7 @@
     </header>
     <section class='fade-in'>
         <h1>Welcome to Time & Date!</h1>
-        <ul>
+        <ul class='main-ul'>
             <li class='inline-block'>
                 <p class='bold-style'>
                     Present year:

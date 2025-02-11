@@ -9,6 +9,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     list-style-type: none;
+    margin: 0px;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h1 {
     justify-content: space-around;
 }
 
-ul {
+.main-ul {
     display: grid;
     gap: 20px;
     justify-self: center;
@@ -108,4 +109,12 @@ a {
     font-size: 2rem;
     line-height: 120%;
     text-decoration: none;
+    color: var(--white);
+}
+
+.footer-ul {
+    display: grid;
+    gap: 20px;
+    padding-inline-start: 0;
+    list-style-type: none;
 }
