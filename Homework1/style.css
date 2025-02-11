@@ -76,6 +76,10 @@ header {
     position: relative;
 }
 
+.header-text {
+    justify-self: center;
+}
+
 @keyframes header-slide-in {
     from {
         top: -100px;

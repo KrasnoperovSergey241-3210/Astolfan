@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src='C:\XAMPP\htdocs\241-Student\Homework1\mospolytech_logo_white.png' alt='Логотип Мосполитеха.'>
+        <img src='\Homework1\mospolytech_logo_white.png' alt='Логотип Мосполитеха.'>
         <p class='header-text'>Hello world!</p>
     </header>
     <section class='fade-in'>
