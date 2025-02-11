@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <a href='http://localhost/241-student/Homework1/index.php'><img src='241-STUDENT/Homework1\mospolytech_logo_white.png' alt='Логотип Мосполитеха.'></a>
+        <a href='http://localhost/241-student/Homework1/index.php'><img src='mospolytech_logo_white.png' alt='Логотип Мосполитеха.'></a>
         <p class='header-text'>Hello world!</p>
     </header>
     <section class='fade-in'>
@@ -57,7 +57,7 @@
         </ul>
     </section>
     <footer>
-        <img class='footer-img' src='Homework1\mospolytech_logo_white.png' alt='Логотип Мосполитеха.'>
+    <a href='http://localhost/241-student/Homework1/index.php'><img class='footer-img' src='mospolytech_logo_white.png' alt='Логотип Мосполитеха.'></a>
         <ul class='footer-ul'>
             <li class='footer-ul-title'>
                 Другие продукты:
