@@ -63,13 +63,13 @@
                 Другие продукты:
             </li>
             <li>
-                <a href='http:nya-kawaii-senpai.nelify.app'>Сайт на тему сёрфинга</a>
+                <a href='https://nya-kawaii-senpai.netlify.app/'>Сайт на тему сёрфинга</a>
             </li>
             <li>
-                <a href='http:greed-kawaii-senpai.nelify.app'>Сайт с картинами</a>
+                <a href='https://greed-kawaii-senpai.nelify.app'>Сайт с картинами</a>
             </li>
             <li>
-                <a href='http:nya-kawaii-senpai.nelify.app'>Сайт для избранных</a>
+                <a href='https://demo-kawaii-senpai.nelify.app'>Сайт для избранных</a>
             </li>
         </ul>
     </footer>
