@@ -63,3 +63,22 @@ p {
         opacity: 1;
     }
 }
+
+header {
+    border-radius: 15px;
+    background-image: linear-gradient( #75188f, #75176a, #410a47);
+    border-width: 0px;
+    display: flex;
+    animation-name: header-slide-in;
+    animation-duration: 5s;
+}
+
+@keyframes header-slide-in {
+    from {
+        position: absolute;
+        top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
