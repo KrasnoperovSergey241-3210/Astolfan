@@ -57,9 +57,9 @@
         </ul>
     </section>
     <footer>
-        <img src='Homework1\index.php' alt='Логотип Мосполитеха.'>
+        <img class='footer-img' src='Homework1\index.php' alt='Логотип Мосполитеха.'>
         <ul class='footer-ul'>
-            <li>
+            <li class='footer-ul-title'>
                 Другие продукты:
             </li>
             <li>
