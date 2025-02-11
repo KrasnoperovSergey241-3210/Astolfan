@@ -66,10 +66,10 @@
                 <a href='https://nya-kawaii-senpai.netlify.app/'>Сайт на тему сёрфинга</a>
             </li>
             <li>
-                <a href='https://greed-kawaii-senpai.nelify.app'>Сайт с картинами</a>
+                <a href='https://greed-kawaii-senpai.netlify.app'>Сайт с картинами</a>
             </li>
             <li>
-                <a href='https://demo-kawaii-senpai.nelify.app'>Сайт для избранных</a>
+                <a href='https://demo-kawaii-senpai.netlify.app'>Сайт для избранных</a>
             </li>
         </ul>
     </footer>
