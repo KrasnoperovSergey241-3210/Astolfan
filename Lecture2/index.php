@@ -11,7 +11,7 @@
     <h1>Welcome to Time & Date!</h1>
     <ul>
         <li class='inline-block'>
-            <p>
+            <p class='bold-style'>
                 Present year:
             </p>
             <p>
@@ -19,7 +19,7 @@
             </p>
         </li>
         <li class='inline-block'>
-            <p>
+            <p class='bold-style'>
                 Present month:
             </p>
             <p>
@@ -27,7 +27,7 @@
             </p>
         </li>
         <li class='inline-block'>
-            <p>
+            <p class='bold-style'>
                 Present date:
             </p>
             <p>
@@ -35,7 +35,7 @@
             </p>
         </li>
         <li class='inline-block'>
-            <p>
+            <p class='bold-style'>
                 Current day of the week:
             </p>
             <p>
@@ -43,7 +43,7 @@
             </p>
         </li>
         <li class='inline-block'>
-            <p>
+            <p class='bold-style'>
                 Current time:
             </p>
             <p>

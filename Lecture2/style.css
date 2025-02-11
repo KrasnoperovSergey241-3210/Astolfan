@@ -39,3 +39,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.bold-style {
+    font-style: bold;
+}
