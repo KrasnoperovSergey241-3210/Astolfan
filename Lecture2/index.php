@@ -36,7 +36,7 @@
         </li>
         <li class='inline-block'>
             <p class='bold-style'>
-                Current day of the week:
+                Day of the week:
             </p>
             <p>
                 <?php echo date("l"); ?>
