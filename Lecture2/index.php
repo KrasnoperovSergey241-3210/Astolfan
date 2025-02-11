@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lecture 2</title>
+    <link rel='stylesheet' href="style.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <p>
-        <?php echo date("l"); ?>
-    </p>
+    <section>
+    <h1>Welcome to Time & Date!</h1>
+    <ul>
+        <li class='inline-block'>
+            <p>
+                Present year:
+            </p>
+            <p>
+                <?php echo date("Y"); ?>
+            </p>
+        </li>
+        <li class='inline-block'>
+            <p>
+                Present month:
+            </p>
+            <p>
+                <?php echo date("F"); ?>
+            </p>
+        </li>
+        <li class='inline-block'>
+            <p>
+                Present date:
+            </p>
+            <p>
+                <?php echo date("jS"); ?>
+            </p>
+        </li>
+        <li class='inline-block'>
+            <p>
+                Current day of the week:
+            </p>
+            <p>
+                <?php echo date("l"); ?>
+            </p>
+        </li>
+    </ul>
+</section>
 </body>
 </html>
