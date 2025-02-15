@@ -66,4 +66,9 @@
         }
         echo "<BR>";
     }
+
+    function f($first, $second): int
+    {
+        return $first + $second;
+    }
 ?>
