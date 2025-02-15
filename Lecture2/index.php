@@ -53,4 +53,17 @@
     $g = array(2, 1);
 
     var_dump($e == $g);
+
+    $arr_2 = [
+        1 => [1, 2, 3],
+        'd' => [5, 6, 'g', 'i'],
+        3 => [5, 7, 8, 9]
+    ];
+
+    foreach($arr_2 as $arr_new) {
+        foreach($arr_new as $elem) {
+            echo "$elem, ";
+        }
+        echo "<BR>";
+    }
 ?>
