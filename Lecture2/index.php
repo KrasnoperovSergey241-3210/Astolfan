@@ -75,8 +75,9 @@
 
     echo f(3, 4);
 
-    function f2($first2, $second2): int
+    function f2(1, 2): int
     {
+        global $global;
         $global = $first2 + $second2;
         return $global
     }
