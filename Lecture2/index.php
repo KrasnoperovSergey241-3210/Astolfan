@@ -74,4 +74,12 @@
     }
 
     echo f(3, 4);
+
+    function f2($first2, $second2): int
+    {
+        $global = $first2 + $second2;
+        return $global
+    }
+
+    echo $global;
 ?>
