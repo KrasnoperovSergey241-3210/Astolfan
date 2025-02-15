@@ -16,4 +16,41 @@
     for ($i = 0; $i < sizeof($arr2); $i++) {
         echo $arr2[$i].' ';
     }
+
+    $arr3 = {
+        i => 2,
+        'b' => 'r',
+        'c' => 6,
+        4 => 8
+    };
+
+    foreach($arr3 as $elem) {
+        echo "$elem ";
+    };
+
+    $a = array(1, 2);
+    $b = arrY(3, 4);
+    printr($a+$b);
+
+    $d {
+        'a' => 'f';
+        3 => 'c';
+        '4' => 1
+    };
+
+    print_r($c);
+    echo '<BR>';
+    print_r($d);
+    echo '<BR>';
+    print_r($c+$d);
+
+    $f = $d;
+    print_r($f == $d);
+
+    var_dump($a == $b);
+
+    $e = array(1, 2);
+    $g = array(2, 1);
+
+    var_dump($e == $g);
 ?>
