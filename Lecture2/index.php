@@ -69,6 +69,9 @@
 
     function f($first, $second): int
     {
-        return $first + $second;
+        $sum = $first + $second;
+        return $sum
     }
+
+    echo f(3, 4);
 ?>
