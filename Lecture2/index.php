@@ -83,4 +83,84 @@
     }
 
     echo $global;
+
+    // Лаба 2
+
+    // #1
+
+    $letters = ['a', 'b', 'c', 'b', 'a'];
+    function f_counter_a($letters) {
+        $counter_a = 0;
+        foreach($letters as $elem) {
+            if ($elem == 'a') {
+                $counter_a++;
+            }
+        }
+        return $counter_a;
+    }
+
+    function f_counter_b($letters) {
+        $counter_b = 0;
+        foreach($letters as $elem) {
+            if ($elem == 'b') {
+                $counter_b++;
+            }
+        }
+        return $counter_b;
+    }
+
+    function f_counter_c($letters) {
+        $counter_c = 0;
+        foreach($letters as $elem) {
+            if ($elem == 'c') {
+                $counter_c++;
+            }
+        }
+        return $counter_c;
+    }
+
+    print_r(f_counter_a($letters));
+    print_r(f_counter_b($letters));
+    print_r(f_counter_c($letters));
+
+    // #2
+
+    $array_num_2 = [
+        'a' => 1,
+        'b' => 2,
+        'c' => 3
+    ];
+
+    var_dump(array_flip($array_num_2));
+
+    // #3
+
+    $array_num_3 = [1, 2, 3, 4, 5];
+
+    var_dump(array_reverse($array_num_3));
+
+    // #4
+
+    $array_num_4_1 = ['a', 'b', 'c'];
+    $array_num_4_2 = [1, 2, 3];
+    var_dump(array_combine($array_num_4_1, $array_num_4_2));
+
+    // #5
+
+    $array_num_5 = [
+        'a' => 1,
+        'b' => 2,
+        'c' => 3
+    ];
+
+    $keys = array_keys($array_num_5);
+    $values = array_values($array_num_5);
+
+    var_dump($keys);
+    var_dump($values);
+
+    // #6
+
+    $array_num_6 = ['a', 'b', 'c', 'd', 'e']
+    var_dump(array_map('strtoupper', $array_num_6));
 ?>
